@@ -1,0 +1,16 @@
+# Fizzbuzz exercise for different return value.
+
+def fizz_buzz(number):
+    if (number % 3 == 0) and (number % 5 == 0):
+        return "FuzzBuzz"
+    if number % 3 == 0:
+        return "Fizz"
+    if number % 5 == 0:
+        return "Buzz"
+
+    return number
+
+
+print(fizz_buzz(3))
+
+
